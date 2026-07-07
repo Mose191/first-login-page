@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body >
+  <h1>Musa World</h1>
+  <!--SIGN UP FORM-->
+  <div class="container">
+    <form id="signupForm">
+<h2>Create Account</h2>
+<!-- <label for="name">Name:</label>-->
+<input type="text"  placeholder="Full Name" maxlength="30" required><br><br>
+<!--<label for="email">Email Address:</label>-->
+<input type="email"  placeholder="Email"  maxlength="30" required><br><br>
+<!--<label for="contact">Phone Number:</label>-->
+<input type="text"  placeholder="Phone Number" required ><br><br>
+<!--<label for="address">Residence:</label>-->
+<input type="text"  placeholder="Residence" maxlength="15" required><br><br>
+<!--<label for="password">Password:</label>-->
+<input type="password" maxlength="12" placeholder="Password"><br><br>
+<button type="submit">Sign Up</button>
+<div class="toggle" onclick="toggleForm()">Already Have an Account? Login</div>
+    </form>
+    <!--LOGIN FORM-->
+    <form id="loginForm" class="hidden">
+<h2>Login</h2>
+<input type="email" placeholder="Email" required><br><br>
+<input type="password" placeholder="Password" required><br><br>
+<button type="submit">Login</button>
+<div class="toggle" onclick="toggleForm()">Don't Have an Account? Sign Up</div>
+    </form>
+ </div>  
+ 
+  
+       <script src="web.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    top: 100px;
+}
+h1{
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    z-index: 10;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+input:focus{border-color: #ff7e5f;}
+
+button{
+width: 100%;
+padding: 12px;
+background: #ff7e5f;
+border: none;
+color: white;
+font-size: 16px;
+border-radius: 8px;
+cursor: pointer;
+transition: 0.3s;
+}
+button:hover{background: #e96b50;}
+
+.toggle{
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    color:#ff7e5f
+}
+
+.hidden{display: none;}
+.portfolio-page{
+    background-color: #1f242d;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0 10%;
+}
+.image-circle{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 8px solid #32ff7e;
+    box-shadow: 0 0 25px #32ff7e;
+    overflow: hidden;
+}
+.image-circle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.accent-text{color:#32ff7e}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.hero-content{max-width: 50%;}
+.hero-content h1{
+    font-size: 3.5rem;
+    margin: 10px 0;
+}
+.btn-primary{
+    background-color: #32ff7e;
+    color: #1f242d;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px #32ff7e;
+}
+.social-icons span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #32ff7e;
+    border-radius: 50%;
+    color: #32ff7e;
+    margin-left: 15px;
+}
+a:hover{
+    color: black;
+}
+.others{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top:20px;
+    right:30px;
+}
+.me p{
+    text-align: left;
+    align-items: end;
+}
